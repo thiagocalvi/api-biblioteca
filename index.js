@@ -41,7 +41,7 @@ app.use('/', BookRouters);
 
 //home
 app.get('/', (req, res)=>{
-    res.render('index')
+    res.send("Hello world")
 });
 
 
